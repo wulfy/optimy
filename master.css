@@ -69,14 +69,19 @@ h1,h2 {
     padding: 5px;
 }
 
+#logo img{
+	display: none;
+}
+
 #logo {
     display: block;
-    height: 112px;
     left: 0;
     position: absolute;
     text-align: left !important;
     top: -20px;
     width: 900px;
+    background: url(logo.png);
+    height: 258px;
 }
 
 #logo a {
@@ -92,7 +97,7 @@ h1,h2 {
     margin-top: 0;
     padding: 0 10px 12px;
     position: absolute;
-    top: 126px;
+    top: 258px;
     width: 180px;
 }
 #sitePermanentInfo li strong {
@@ -109,11 +114,11 @@ div#projectSteps h1 {
 }
 
 #topNavigation {
-	background:url(bg_nav.gif) repeat-x;
+	background-color:#04223D ;
 	width:100%;
 	height:26px;
 	position:absolute;
-	top:76px;
+	top:230px;
 	left:0;	
 	margin:0;
 	text-align:left;	
@@ -189,7 +194,7 @@ div#projectSteps h1 {
 
 #content {
 	background:transparent;	
-	padding-top:86px;
+	padding-top:256px;
 	font-size: 12px;
 }
 
@@ -202,7 +207,7 @@ div#projectSteps h1 {
 
 #content.projectForm form .actionButtons p.submit input,
 #content.sponsorFrontendHome .actionButtons p.submit input {
-	background:#0065B5;
+	background:#04223D;
 	color:#fff;
 	font-size:13px;
 	font-weight:bold;
@@ -211,8 +216,6 @@ div#projectSteps h1 {
 	cursor:pointer;
 	border:none;
 	width:auto;
-	
-	background:url(bg_nav.gif) repeat-x;
 	height:26px;
 	line-height:26px;
 	color:#fff;
@@ -343,4 +346,15 @@ form.drilldown fieldset p.questionAnswer.head:hover {
 
 #content.myProjects .item ul.parts li.part li:last-child {
 	padding-bottom: 2px;
+}
+
+#logo_title{
+	position: absolute;
+	top:20px;
+	left:50px;
+	font-family: 'Lubalin', serif;
+	font-size: 30px;
+	color: #FFF;
+	text-align: center;
+	width: 100%;
 }
