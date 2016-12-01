@@ -1,0 +1,346 @@
+@charset "utf-8";
+
+body { 
+	font-family: Arial,"Arial MT",Helvetica,sans-serif;	
+	background:#fff;
+	font-size: 12px;
+}
+body * { 
+	font-family: Arial,"Arial MT",Helvetica,sans-serif !important;	
+}
+A
+{
+    COLOR: #0065B5;
+	TEXT-DECORATION: none;
+}
+A:active
+{
+    COLOR: #0065B5;
+	TEXT-DECORATION: none;
+}
+A:link
+{
+    COLOR: #0065B5;
+	TEXT-DECORATION: none;
+}
+A:visited
+{
+    COLOR: #0065B5;
+	TEXT-DECORATION: none;
+}
+A:hover
+{
+    TEXT-DECORATION: underline;
+}
+#topNavigation a {
+    color: #FFFFFF!important;
+    text-decoration: none;
+}
+h1,h2 {
+	color:#005e8a !important;
+}
+
+#container {
+	margin-left:-450px;
+	left:50%;	
+	position:relative;
+	width:900px;
+}
+
+#content.my .otherActions ul li.info a {
+    background: url("icon_my_info.gif") no-repeat scroll 1px 0 transparent;
+}
+#content.my .otherActions ul li.password a {
+    background: url("icon_my_password.gif") no-repeat scroll 0 0 transparent;
+}
+
+
+#content.my .otherActions ul li.delete a {
+    background: url("icon_my_delete.gif") no-repeat scroll 1px 0 transparent;
+}
+
+
+#content p.highlight, #content div.highlight {
+    background-color: #efefef;
+    border: 1px dashed #0065B5;
+    color: #006;
+    font-size: 13px;
+    margin: 5px 0 16px;
+    padding: 5px;
+}
+
+#logo {
+    display: block;
+    height: 112px;
+    left: 0;
+    position: absolute;
+    text-align: left !important;
+    top: -20px;
+    width: 900px;
+}
+
+#logo a {
+	display:block;
+}
+
+#sitePermanentInfo,
+#menuleft {
+	border-right: 1px dotted #5C5C61;
+    color: #000000;
+    font-size: 12px;
+    left: 10px;
+    margin-top: 0;
+    padding: 0 10px 12px;
+    position: absolute;
+    top: 126px;
+    width: 180px;
+}
+#sitePermanentInfo li strong {
+	color:#970E16;
+}
+
+div#projectSteps {
+	border:none;
+	padding:10px;
+}
+
+div#projectSteps h1 {
+	color: #000 !important;
+}
+
+#topNavigation {
+	background:url(bg_nav.gif) repeat-x;
+	width:100%;
+	height:26px;
+	position:absolute;
+	top:76px;
+	left:0;	
+	margin:0;
+	text-align:left;	
+	line-height:25px;
+	padding:0;
+	color:#FFF;
+}
+
+#topNavigation a {
+	height:26px;
+	padding:0 15px;
+	margin:0 20px;
+	font-size:14px;
+	line-height:26px;
+	border:none;
+	display:block;
+	float:left;
+}
+#topNavigation a:hover {
+	background:url(bg_navactive.gif) repeat-x center left;
+	color:#095BA6 !important;
+}
+
+#topNavigation span {
+	display:none;	
+}
+
+#topNavigation span#languages {
+	display: block;
+    position: absolute;
+    right: 0;
+    top: -35px;
+	background:#F5F5F5;
+	padding:3px 5px;
+}
+
+#topNavigation span#languages span {
+	display:none;
+}
+
+#topNavigation span#languages .lang {
+	height:auto;
+	padding:2px;
+	margin:2px;	
+	background:none;
+	font-size:10px;
+	line-height:normal;
+	display:block;
+	float:left;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	vertical-align:top;
+	text-decoration:none;
+	margin:0 5px;
+	background:#707378;
+}
+
+#topNavigation span#languages a.lang {
+	color:#666 !important;
+	font-weight:normal;
+	background:none !important;
+}
+
+#topNavigation span#languages a.lang:hover {
+	color:#fff !important;
+	background:#707378 !important;
+}
+
+#content_table {
+	background:transparent;	
+}
+
+#content {
+	background:transparent;	
+	padding-top:86px;
+	font-size: 12px;
+}
+
+#imagebottom {
+	display:none;	
+}
+
+
+
+
+#content.projectForm form .actionButtons p.submit input,
+#content.sponsorFrontendHome .actionButtons p.submit input {
+	background:#0065B5;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+	height:26px;
+	padding:2px 4px;
+	cursor:pointer;
+	border:none;
+	width:auto;
+	
+	background:url(bg_nav.gif) repeat-x;
+	height:26px;
+	line-height:26px;
+	color:#fff;
+}
+#content.projectForm form .previousForm input {
+	background:#fff;
+	color:#000;
+	font-size:11px;
+	font-weight:bold;
+	height:26px;
+	padding:2px 4px;
+	cursor:pointer;
+	border:none;
+	width:auto;
+}
+#content.projectForm form .actionButtons p.previousForm {
+	top:0;
+}
+
+h2,
+#content.projectForm form fieldset legend,
+#content h2.green,
+#content.myProjects h2,
+#projectForm.drilldown fieldset p.questionAnswer.head label {
+	color:#0065B5;
+}
+
+#projectForm.drilldown fieldset > p.head:hover {
+	background-color:#4BA82E;
+}
+
+div#projectSteps ol li.disabled {
+	color:#78786B;
+}
+
+div#projectSteps ol a,
+#menuleft a,
+#menuleft a:hover {
+	color:#0065B5;
+	text-decoration:none;
+}
+
+#dashboardTitle a,
+#dashboardTitle a:hover { color:#ccc;
+text-decoration:none; }
+#content.my .projectActions {
+	background:url("bg_my_projects.png") no-repeat scroll 0 0 transparent;
+}
+#content.my .projectActions * {
+	color:#fff!important
+}
+
+#content ul li {
+	background:url("navi_closed.gif") no-repeat scroll 0 3px transparent;
+}
+
+#content p.actionLink a:hover {
+	background:none;
+	COLOR: #0065B5;
+    TEXT-DECORATION: underline;
+}
+
+#content input {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:1px solid #ccc;
+	font-family:Verdana;
+	font-size:11px;
+	padding:1px 5px;
+	width:290px;
+}
+#content input.submit {
+	background:url(bg_nav.gif) repeat-x;
+	height:26px;
+	line-height:26px;
+	color:#fff;
+	width:auto;
+	border: none;
+}
+#content input:focus,#content textarea:focus,#content select:focus {
+	border:1px solid #0065B5 !important;	
+}
+#content input.checkbox,
+#content input.radio {
+	width:auto;
+}
+
+#content.projectDetail #shareActions {
+    position: absolute;
+    right: 35px;
+    top: 139px;
+}
+#content.my .otherActions ul li a {
+    color: #0065B5;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 18px;
+    padding-left: 25px;
+}
+
+form.drilldown fieldset p.questionAnswer.head label {
+	color:#0065B5;
+}
+#projectForm.drilldown fieldset p.questionAnswer.head:hover,
+form.drilldown fieldset p.questionAnswer.head:hover {
+	background:#efefef;
+}
+
+#content.login .illustration {
+	display: none;
+}
+
+#content.projectEnd .thankYouActions {
+	display: none;
+}
+
+#content.myProjects .item ul.parts li.part {
+	float: none;
+	padding: 11px 0 0 0;
+	margin: 12px 0 0 0;
+	border-top: 1px dashed #ccc;
+}
+#content.myProjects .item ul.parts li.part:first-child {
+	padding-top: 0;
+	margin-top: 0;
+	border-top: none;
+}
+
+#content.myProjects .item ul.parts li.part li:last-child {
+	padding-bottom: 2px;
+}
