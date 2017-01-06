@@ -262,9 +262,6 @@ text-decoration:none; }
 #content.my .projectActions {
 	background:url("bg_my_projects.png") no-repeat scroll 0 0 transparent;
 }
-#content.my .projectActions * {
-	color:#fff!important
-}
 
 #content ul li {
 	background:url("navi_closed.gif") no-repeat scroll 0 3px transparent;
