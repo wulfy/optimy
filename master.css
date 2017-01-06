@@ -260,7 +260,7 @@ div#projectSteps ol a,
 #dashboardTitle a:hover { color:#ccc;
 text-decoration:none; }
 #content.my .projectActions {
-	background-color: #04223D;;
+	background-color: #04223D;
 }
 
 #content.my .projectActions * {
@@ -286,7 +286,7 @@ text-decoration:none; }
 	width:290px;
 }
 #content input.submit {
-	background: #04223D
+	background-color: #04223D;
 	height:26px;
 	line-height:26px;
 	color:#fff;
