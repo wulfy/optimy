@@ -260,7 +260,9 @@ div#projectSteps ol a,
 #dashboardTitle a:hover { color:#ccc;
 text-decoration:none; }
 #content.my .projectActions {
-	background-color: #04223D;
+	background-color: #04223D !important;
+        background: none;
+        border-radius: 15px 30px;
 }
 
 #content.my .projectActions * {
